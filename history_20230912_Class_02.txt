@@ -1,0 +1,265 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  clear
+    5  whoami
+    6  who
+    7  pwd
+    8  dir
+    9  ls
+   10  clean
+   11  clear
+   12  ls
+   13  who
+   14  cd documents
+   15  cd downloads
+   16  pwd
+   17  help
+   18  clear
+   19  man ls
+   20  ls -l
+   21  man ls
+   22  ls -l -t
+   23  man ls
+   24  ls -lt
+   25  history
+   26  ls -l -time
+   27  man ls
+   28  ls --all
+   29  ls-a
+   30  ls -a
+   31  ls --a
+   32  ls --all
+   33  ls -l
+   34  ls -la
+   35  pwd
+   36  ls
+   37  ls downloads
+   38  ls Downloads
+   39  pwd
+   40  cd Downloads
+   41  pwd
+   42  cs ..
+   43  cd .
+   44  cd user
+   45  cdpwd
+   46  pwd
+   47  cd home/user
+   48  cd ..
+   49  pwd
+   50  ls
+   51  ls -la
+   52  ls -la Downloads/
+   53  pwd
+   54  ls -la
+   55  ls /home
+   56  pwd
+   57  cd /home
+   58  pwd
+   59  dir
+   60  ls
+   61  ls -l
+   62  cd user
+   63  pwd
+   64  ls
+   65  ls -l
+   66  tree
+   67  pwd
+   68  ls
+   69  cd Music/
+   70  pwd
+   71  ls
+   72  ls -la
+   73  cd ..
+   74  pwd
+   75  cd Music/
+   76  pwd
+   77  ls
+   78  ls -la
+   79  cd .
+   80  pwd
+   81  cd ..
+   82  pwd
+   83  ls -la
+   84  cd ..
+   85  pwd
+   86  ls
+   87  ls -la
+   88  cd sc
+   89  ls
+   90  cd ..
+   91  pwd
+   92  cd ..
+   93  pwd
+   94  ls
+   95  ls -la
+   96  pwd
+   97  cd .
+   98  cd ..
+   99  pwd
+  100  ls
+  101  ls -la
+  102  pwd
+  103  ls
+  104  cd root
+  105  ls -la
+  106  cd roott
+  107  cdd root
+  108  pwd
+  109  cd ./user
+  110  cd ./home/
+  111  cd ./user
+  112  pwd
+  113  cd /
+  114  pwd
+  115  cd home/user/
+  116  pwd
+  117  cd /
+  118  pwd
+  119  cd ~user/
+  120  cd /
+  121  cd ~
+  122  pwd
+  123  cd /home
+  124  cd /
+  125  cd ~/Documents/
+  126  pwd
+  127  cd /
+  128  pwd
+  129  cd
+  130  pwd
+  131  cd /
+  132  pwd
+  133  cd
+  134  pwd
+  135  ls -lt
+  136  mkdir abc
+  137  ls -lt
+  138  ls -l
+  139  ls -lt
+  140  cd abc
+  141  ls
+  142  ls -lt
+  143  ls -a
+  144  ls -lat
+  145  pwd
+  146  ls -lat
+  147  cd ~/abc/..
+  148  pwd
+  149  cd ~abc/../abc/..
+  150  rm
+  151  rmdir abc
+  152  rm
+  153  pwd
+  154  ls -lat
+  155  ls -lt
+  156  cd /
+  157  mkdir abc
+  158  cd
+  159  pwd
+  160  touch
+  161  touch asd.txt
+  162  ls -lt
+  163  echo
+  164  echo asdasdasd
+  165  echo asdasdasd > text_1.txt
+  166  ls -lt
+  167  echo text_1.txt 
+  168  echo 123 > text_2.txt
+  169  ls -lt
+  170  x text_2
+  171  cat text_2
+  172  cat text_2.txt
+  173  hexdump -C text_2.txt
+  174  echo 4567890 > text_2.txt
+  175  cat text_2.txt
+  176  hexdump -C text_2.txt 
+  177  ls -la
+  178  ls -lt
+  179  rm text_1.txt 
+  180  ls
+  181  rm text_2.txt 
+  182  echo 6789 > text.txt
+  183  cat text.txt 
+  184  echo 12345 > text.txt 
+  185  echo 6789 >> text.txt 
+  186  ls
+  187  ls -l
+  188  ls -lt
+  189  hexdump text.txt 
+  190  cat text.txt 
+  191  hexdump -C text.txt 
+  192  man exho
+  193  man echo 
+  194  echo 12345 > text2.txt
+  195  echo "12345/n6789"
+  196  echo -e "12345/n6789"
+  197  echo "12345\n6789"
+  198  echo -e "12345\n6789"
+  199  echo -e "12345\n\6789"
+  200  echo -e "12345\n\t6789"
+  201  echo -e "12345\n\r6789"
+  202  echo -e "12345\r6789"
+  203  echo -e "12345\r6"
+  204  man echo
+  205  echo -e "12345\r67"
+  206  echo -e "12345\r67" > text2.txt
+  207  cat text2.txt 
+  208  hexdump text2.txt 
+  209  hexdump -C text2.txt 
+  210  echo 12345 > text1
+  211  echo 12345 > text1.txt
+  212  rm text
+  213  rm text1.txt
+  214  rm text2.txt
+  215  rm text.txt
+  216  ls
+  217  rm asd.txt 
+  218  echo 12345 > asd.txt
+  219  cat asd.txt 
+  220  echo -e "\\6789"
+  221  echo -e "\\6789" > asd.txt 
+  222  cat asd.txt 
+  223  man echo
+  224  cat asd.txt 
+  225  rm asd.txt 
+  226  mkdir CDE
+  227  echo 12345 > text1.txt
+  228  ls -lt
+  229  cat text1
+  230  cp text1.txt CDE
+  231  ls -lt CDE
+  232  ls
+  233  rm text1
+  234  cat text1.txt 
+  235  ls cde
+  236  ls CDE
+  237  mv CDE/text1.txt CDE/text3.txt
+  238  ls -lt CDE
+  239  ls
+  240  cat CDE/text3.txt 
+  241  l
+  242  ls -l
+  243  ls -lt
+  244  mv text1.txt abc.dat
+  245  echo 123 >txt.txt
+  246  ls -lt
+  247  echo abc > tasd.txt
+  248  ls
+  249  ls -lt
+  250  mv txt.txt tasd1.txt
+  251  ls -lt
+  252  rm tas*.txt
+  253  ls -lt
+  254  rm a*c.d*
+  255  ls -lt
+  256  ls
+  257  echo 123 > asd.txt
+  258  ls
+  259  ls -lt
+  260  ls a*
+  261  echo 123 > asd1.txt
+  262  ls a*
+  263  ls -lt 
+  264  history
+  265  history > history_20230912_Class_02.txt
