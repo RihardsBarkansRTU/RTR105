@@ -1,0 +1,128 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  who
+    5  pwd
+    6  ls
+    7  git
+    8  git --version
+    9  man git
+   10  git clone 
+   11  history_20230912_Class_02_02.txt
+   12  Add files via upload
+   13  September 12, 2023 12:11
+   14  history_20230912_Class_02_02.txt
+   15  Add files via upload
+   16  September 12, 2023 12:11
+   17  git clone 
+   18  history_20230912_Class_02_02.txt
+   19  Add files via upload
+   20  September 12, 2023 12:11
+   21  git cline 
+   22  @RihardsBarkansRTU
+   23  RihardsBarkansRTU Add files via upload
+   24  d8c3fc1
+   25  Sep 12, 2023
+   26  Git stats
+   27  Files
+   28  Type
+   29  Name
+   30  Latest commit message
+   31  Commit time
+   32  @RihardsBarkansRTU
+   33  RihardsBarkansRTU Add files via upload
+   34  d8c3fc1
+   35  Sep 12, 2023
+   36  Git stats
+   37  Files
+   38  Type
+   39  Name
+   40  Latest commit message
+   41  Commit time
+   42  git clone https://github.com/RihardsBarkansRTU/RTR105
+   43  ls -lt
+   44  git clone https://github.com/RihardsBarkansRTU/RTR105 RTR105_Kopija
+   45  ls -lt
+   46  ls -lt RTR*
+   47  ls -lt | grep RTR
+   48  rmdir RTR105_Kopija/
+   49  man rmdir
+   50  rmdir RTR105_Kopija/ --ignore-fail-on-non-empty
+   51  ls -lt | grep RTR
+   52  rm -r RTR105_Kopija/
+   53  y
+   54  ls -lt | grep RTR
+   55  man rm
+   56  git clone https://github.com/RihardsBarkansRTU/RTR105 RTR105_Kopija
+   57  rm -f RTR105_Kopija/
+   58  rm -rf RTR105_Kopija/
+   59  ls -lt | grep RTR
+   60  ls
+   61  ls -lt
+   62  cd RTR105/
+   63  rwd
+   64  pwd
+   65  cd
+   66  cd ~/RTR105/
+   67  ~
+   68  cd ~
+   69  cd ./RTR105/
+   70  pwd
+   71  whoami
+   72  ls -t
+   73  ls 
+   74  ls -l
+   75  ls -la
+   76  cd .git
+   77  ls
+   78  cat config
+   79  ls -lt
+   80  ls -lta
+   81  cat index
+   82  hexdump -C config 
+   83  cat config 
+   84  hexdump -C index
+   85  cat index 
+   86  ls -lt
+   87  cd ..
+   88  pwd
+   89  ls
+   90  history
+   91  history > history_20230919_Class_04
+   92  ls
+   93  ls -lt
+   94  cat history_20230919_Class_04 
+   95  nano git-upload
+   96  ls -lt
+   97  cat git-upload 
+   98  pwd
+   99  whereis pwd
+  100  echo $PATH
+  101* ~
+  102  ls
+  103  ~/RTR105/git-upload
+  104  chmod 754 git-upload 
+  105  ls -lt
+  106  echo $PATH
+  107  PATH=$PATH:~/RTR105/
+  108  echo $PATH
+  109  git-upload
+  110  git-uploadgit-uploadgit-uploadgit-upload
+  111  git-upload
+  112  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
+  113  git-upload
+  114  ls -lt
+  115  ls -lta
+  116  cd .git
+  117  cat config
+  118  cd ..
+  119  ls
+  120  cat git-upload 
+  121  nano git-upload 
+  122  ls
+  123  git-upload
+  124  ls
+  125  nano git-upload 
+  126  git-upload
+  127  ls
+  128  history > history_20230919_Class_04

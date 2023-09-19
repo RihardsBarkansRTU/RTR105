@@ -1,0 +1,16 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  echo $0
+    4  pwd
+    5  ls
+    6  sh
+    7  echo $0
+    8  whereis bash
+    9  whereis pwd
+   10  ls -l /bin/pwd
+   11  cat /bin/pwd
+   12  whereis pwd
+   13  ls -l /bin/pwd
+   14  whereis bash
+   15  whereis python
+   16  history > history_20230919_Class_04a
