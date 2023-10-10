@@ -48,7 +48,7 @@ printf("modified_birth_year mainīgā vērtība(dec): %d\n",modified_birth_year)
 printf("modified_birth_year mainīgā vērtība(hex): %#x\n",modified_birth_year);
 printf("modified_birth_year mainīgā vērtība(oct): %#o\n",modified_birth_year);
 
-char c = 10;
+char c = 10,cc = 127; //cc = 128 pārtek
 int i = 4569;
 float f = 3.e-16;
 double d = 4789e39;
@@ -73,6 +73,8 @@ printf("i mainīgā vērtība, iegūta pielietojot tā adreses kopiju - %d\n",*i
 int **i_adreses_adrese = &i_adrese;
 printf("i adreses adrese - %p\n",i_adreses_adrese);
 printf("i adreses adreses izmērs baitos - %ld\n",sizeof(i_adreses_adrese));
+
+printf("%d / %d = %d\nRezultata izmērs baitos: %ld",cc,c,cc/c,sizeof(cc/c));
 
 return 0;
 }
