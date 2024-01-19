@@ -1,45 +1,44 @@
 #include <stdio.h>
 #include <math.h>
-double x, y, yy, vertiba, qwe;
-double k = 0;
+
+double x;
 
 double mans_arctan(double x)
 {
 
-    double a, s, a499;
+    double a, s, a499, k = 1;
     a = (double)1;
     s = a;
+    //printf("a = %Lf\n",a);
+    //printf("s = %Lf\n",s);
 
-    printf("%Lf\n",a);
-    printf("%Lf\n",s);
-
-    while (k < 500)
+    for (k=1; k<500; k++)
     {
-        k++;
         a = a * ((2 * k) * pow((2 * k - 1), 2) / (pow(k, 2) * 4 * (2 * k + 1)) * (pow(x, 2) / (1 + pow(x, 2))));
         s = s + a;
-        printf("%.16Le\n", a);
+        //printf("%.16Le\n", a); //nodzēst komentāru, ja vajag pārbaudīt vērtības!
+        //return k; ???
     }
+    //printf("K = %ld\n",k); ---> K=0???
+    
+    //papildnosacījumi
     s = s * (x / (pow(1 + pow(x, 2), 0.5)));
     a499 = a / ((2 * k) * pow((2 * k - 1), 2) / (pow(k, 2) * 4 * (2 * k + 1)) * (pow(x, 2) / (1 + pow(x, 2))));
-    printf("a499: %.16Lf\n",a499);
-    printf("a500: %.16Lf\n",a);
-    printf("s499: %.16Lf\n",(s-a499));
-    printf("s500: %.16Lf\n",s);
-
-    printf("//Pēdējās vērtībās ir vienādas ar nulli, jo diemžēl msys2 long double == double, bet iekšā ubuntu kods strādā pareizi");
+    printf("499. saskaitāmais: %.16Lf\n",a499);
+    printf("500. saskaitāmais: %.16Lf\n",a);
+    printf("Summa [k=0 : k=499]: %.16Lf\n",(s-a499));
+    printf("Summa [k=0 : k=500]: %.16Lf\n",s);
 
     return s;
 }
 
-
-
 int main(void)
 {
+    double yy, y;
 
     printf("Ievadi skaitli, es tevi lūdzu!\n");
     scanf("%Lf", &x);
-    printf("%Lf",x);
+    printf("Ievadītais skaitlis = [%Lf]\n",x);
     y = atan(x);
     yy = mans_arctan(x);
     printf("atan(%Lf)=%.14Lf\n", x, y);
@@ -76,9 +75,6 @@ int main(void)
     printf("--------------\n");
     printf("\t\t\t");
     printf(" k^2*4*(2k+1)\n");
-
-
-
 
     return 0;
 }
